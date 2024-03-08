@@ -4,7 +4,7 @@
 	
 	<div class="flex justify-end mr-1">
 		<a
-			href="/rezerwacja"
+			href="https://www.gorman.pl/"
 			class="border text-white bg-[#911B53] text-sm rounded-lg my-1 px-3 py-2 w-max-md grid content-center"
 			>Jak uzyskać pomoc ↗</a
 		>
