@@ -59,7 +59,7 @@
 
 <div class="bg-[#FFFDF5] text-black pt-10">
 	<div class="w-11/12 md:max-w-4xl mx-auto">
-		<a href="/"><img class="w-32" src="/gorman-horizontal.webp" alt="logo" /> </a>
+		<a href="https://gorman.pl"><img class="w-32" src="/gorman-horizontal.webp" alt="logo" /> </a>
 		<h1 class="text-4xl font-bold mx-2 mt-10">
 			Zarezerwój swój pobyt. <span class="text-slate-500" />
 		</h1>
