@@ -156,17 +156,7 @@
 			classification: { role }
 		});
 
-		rudderanalytics.track('Quiz Completed', {
-			email: { email },
-			score: { scoreTry },
-			classification: { role },
-			
-		});
-		rudderanalytics.identify(email, {
-			email: { email },
-			score: { scoreTry },
-			classification: { role }
-		});
+		
 
 
 		window.location.href = `https://gorman.pl/${role}`;
