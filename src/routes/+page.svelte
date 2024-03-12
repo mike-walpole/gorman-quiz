@@ -144,7 +144,30 @@
 			questionResponses[item.question] = item.response;
 		}
 
-		
+		analytics.track('Quiz Completed', {
+			email: { email },
+			score: { scoreTry },
+			classification: { role },
+			title: 'some title'
+		});
+		analytics.identify(email, {
+			email: { email },
+			score: { scoreTry },
+			classification: { role }
+		});
+
+		rudderanalytics.track('Quiz Completed', {
+			email: { email },
+			score: { scoreTry },
+			classification: { role },
+			
+		});
+		rudderanalytics.identify(email, {
+			email: { email },
+			score: { scoreTry },
+			classification: { role }
+		});
+
 
 		window.location.href = `https://gorman.pl/${role}`;
 		console.log(totalScore);
@@ -158,6 +181,7 @@
 </svelte:head>
 
 <Navigation />
+
 <div class="bg-[#FFFDF5] font-soehne text-black pt-10">
 	<div class="w-11/12 md:w-1/3 mx-auto">
 		<h1 class="text-2xl font-bold mt-10">Czy jestem alkoholikiem?</h1>
